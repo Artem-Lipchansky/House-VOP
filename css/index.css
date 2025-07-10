@@ -1,3 +1,16 @@
 header {
     background-color: blue;
 }
+
+.menu .menu-item {
+background-color: lightgreen;
+}
+
+.submenu  .submenu-link{
+    color:goldenrod
+
+}
+
+.menu  p {
+    color:white
+}

@@ -17,6 +17,15 @@ background-color: lightgreen;
 
 
 .button{
+    padding: 12px 54px;
     color:white;
-    background-color: blanchedalmond;
+    background-color: #D4C17F;
+    border: 1px solid transparent;
+    
+}
+
+.button:hover{
+    background-color: aqua;
+    cursor: pointer;
+
 }

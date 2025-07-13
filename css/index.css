@@ -29,3 +29,12 @@ background-color: lightgreen;
     cursor: pointer;
 
 }
+
+
+.button:focus{
+    background-color: blueviolet;
+}
+
+.button:active{
+    background-color: rgb(226, 43, 186);
+}

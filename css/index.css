@@ -1,19 +1,19 @@
-/* header {
-    background-color: blue;
-}
+ header {
+    background-color: black;
+} 
 
-.menu .menu-item {
+/* .menu .menu-item {
 background-color: lightgreen;
 }
 
 .submenu  .submenu-link{
     color:goldenrod
 
-}
+} 
 
 .menu  p {
     color:white
-} */
+}  */
 
 
 .button{
@@ -25,16 +25,34 @@ background-color: lightgreen;
 }
 
 .button:hover{
-    background-color: aqua;
-    cursor: pointer;
-
+     /* background-color: aqua; */
+    cursor: pointer; 
+    box-shadow: 0px 0px 2px 2px rgba(219, 192, 127, 0.2);
 }
+
 
 
 .button:focus{
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
+    box-shadow: 0px 0px 4px 4px rgba(219, 192, 127, 0.2);
 }
 
-.button:active{
-    background-color: rgb(226, 43, 186);
-}
+ .button:active{
+
+     background-color: yellow
+    } 
+
+    /* ============================MENU==================================== */
+
+    
+    .menu-link,
+    .submenu-link
+        {
+    color:white
+    }
+    .menu-link:hover,
+    .submenu-link:hover
+        {
+    color:#D4C17F;
+    }
+   

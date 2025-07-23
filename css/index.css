@@ -6,9 +6,9 @@
     background-color: black;
 } 
 
-.title{
-    background-color: var(--color-accent);
-}
+
+
+/* =======================BUTTON======================= */
 
 /* .menu .menu-item {
 background-color: lightgreen;
@@ -22,6 +22,14 @@ background-color: lightgreen;
 .menu  p {
     color:white
 }  */
+
+
+
+/* ==============UI================= */
+
+.title{
+    background-color: var(--color-accent);
+}
 
 
 .button{

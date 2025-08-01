@@ -2,6 +2,7 @@
 
 :root{
 --color-accent: #D4C17F;
+--color-button: rgb(255, 0, 0)
 }
  
  header {
@@ -57,7 +58,7 @@ background-color: lightgreen;
 
  .button:active{
 
-     background-color: rgb(255, 0, 0)
+     background-color: var(--color-button)
     } 
 
     /* ================================MENU==================================== */

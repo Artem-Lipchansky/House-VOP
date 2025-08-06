@@ -2,7 +2,8 @@
 
 :root{
 --color-accent: #D4C17F;
---color-button: rgb(255, 0, 0)
+--color-button: rgb(255, 0, 0);
+--color-white-button: white;
 }
  
  header {
@@ -37,7 +38,7 @@ background-color: lightgreen;
 
 .button{
     padding: 12px 54px;
-    color:white;
+    color: var(--color-white-button);
     background-color: var(--color-accent);
     border: 1px solid transparent;
     

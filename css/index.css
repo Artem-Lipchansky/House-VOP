@@ -68,7 +68,7 @@ background-color: lightgreen;
     .menu-link,
     .submenu-link
         {
-    color:white
+    color: var(--color-white-button);
     }
     .menu-link:hover,
     .submenu-link:hover
